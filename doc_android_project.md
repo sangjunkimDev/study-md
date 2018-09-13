@@ -38,7 +38,7 @@
 
 - ### Service
     - 앱이 백그라운드에서 무언가를 계속 감지하거나 수행해야 하는 업무가 있는 경우에 쓰인다.
-    - IntentService라는 class도 있다.
+    - IntentService는 비동기로 처리되는 서비스이며, 여러번 실행되었을 경우에는 Queue로 처리된다.
 
 ---
 ### 도움받은 링크 목록
@@ -67,3 +67,4 @@
 - Service
     - <http://fullstatck.tistory.com/23>
     - <http://bitly.kr/K2ct>
+    - <http://jo.centis1504.net/?p=968>
